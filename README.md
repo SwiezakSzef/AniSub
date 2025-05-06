@@ -51,64 +51,67 @@ GUI Interface Guide:
   Start Processing: Click "Start" to begin translation
 
 Interface Preview
-##⚙️ Configuration
+## ⚙️ Configuration
 
 Edit .env file to modify settings:
 env
-
+```
 DEEPL_API_KEY=your_deepl_api_key
+```
+```
 WHISPER_MODEL=medium  # Change model size (tiny, base, small, medium, large)
+```
 
 ## 🌟 Features
 
-  Cross-platform support (Windows/macOS/Linux)
+  - Cross-platform support (Windows/macOS/Linux)
 
-  Real-time progress tracking
+  - Real-time progress tracking
 
-  Error logging system
+  - Error logging system
 
-  Multi-threaded processing
+  - Multi-threaded processing
 
-  Support for multiple video formats (MP4, AVI, MKV)
+  - Support for multiple video formats (MP4, AVI, MKV)
 
-  Adjustable subtitle styling
+  - Adjustable subtitle styling
 
 ## 🛠️ Technical Stack
 
-  Speech-to-Text: OpenAI Whisper
+  - Speech-to-Text: OpenAI Whisper
 
-  Translation: DeepL API
+  - Translation: DeepL API
 
-  Video Processing: MoviePy
+  - Video Processing: MoviePy
 
-  GUI: Tkinter
+  - GUI: Tkinter
 
 ## 🚧 Roadmap
 
-  Add batch processing
+  - Add batch processing
 
-  Support for multiple translation APIs
+  - Support for multiple translation APIs
 
-  Subtitle style customization
+  - Subtitle style customization
 
-  Automatic language detection
+  - Automatic language detection
 
-  Video preview window
+  - Video preview window
 
 ## 🤝 Contributing
 
 Contributions welcome! Please follow these steps:
 
-  Fork the repository
+  - Fork the repository
 
-  Create your feature branch (git checkout -b feature/awesome-feature)
+  - Create your feature branch (git checkout -b feature/awesome-feature)
 
-  Commit your changes (git commit -m 'Add awesome feature')
+  - Commit your changes (git commit -m 'Add awesome feature')
 
-  Push to the branch (git push origin feature/awesome-feature)
+  - Push to the branch (git push origin feature/awesome-feature)
 
-  Open a Pull Request
+  - Open a Pull Request
 
-📄 License
+### 📄 License
 
 This project is licensed under the MIT License - see LICENSE file for details
